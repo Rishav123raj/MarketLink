@@ -1,4 +1,4 @@
-# E-Commerce Website README
+# MarketLink E-Commerce Website
 
 ## Introduction
 This README provides an overview of the E-Commerce Website developed using HTML, CSS, Bootstrap, Spring MVC, Spring Boot, MySQL, Spring Security, OAuth, and Java fundamentals. 
