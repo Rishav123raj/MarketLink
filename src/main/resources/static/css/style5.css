@@ -1,0 +1,46 @@
+/* Background Styles */
+body {
+    background: linear-gradient(to right, #f8f9fa, #dee2e6);
+    background-position: center;
+    /* Center the background gradient */
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #6ab0f3, #3282b8);
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Main Content Styles */
+.container {
+    margin-top: 30px;
+}
+
+/* Product Image Styles */
+.col-sm-5 img {
+    margin-top: 50px;
+    /* Adjust the margin for better positioning */
+}
+
+/* Product Details Styles */
+.col-sm-7 {
+    margin-top: 50px;
+    /* Adjust the margin for better positioning */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    /* Blue button */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+}

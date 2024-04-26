@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #00bcd4, #2196f3);
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Card Styles */
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #212121;
+}
+
+.card-text {
+    color: #616161;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+
+.btn-primary:hover {
+    background-color: #1976d2;
+    border-color: #1976d2;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+/* Product Section Styles */
+.product-section {
+    margin-top: 30px;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card .card-body {
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.product-card .card-title {
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.product-card .card-text {
+    color: #616161;
+}
+
+.product-card .btn-primary {
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #1976d2;
+    border-color: #1976d2;
+}
+
+/* Categories Section Styles */
+.categories-section {
+    margin-top: 30px;
+}
+
+.categories-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.categories-list li {
+    margin-bottom: 10px;
+}
+
+.categories-list a {
+    color: #212121;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.categories-list a:hover {
+    color: #1565c0;
+}

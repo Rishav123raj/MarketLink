@@ -1,0 +1,57 @@
+/* Background Styles */
+body {
+    background: linear-gradient(to right, #f5f5f5, #e5e5e5);
+    background-position: center;
+    /* Center the background gradient */
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #00bcd4, #2196f3);
+    /* Light gray background */
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Form Styles */
+.container {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    /* Blue button */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+}
+
+/* Link Styles */
+.linkControl {
+    color: #007bff;
+    /* Blue link color */
+}
+
+.linkControl:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Responsive Background Styles */
+@media (max-width: 576px) {
+    body {
+        background: linear-gradient(to right, #396a7ea1, #e5e5e5);
+    }
+}

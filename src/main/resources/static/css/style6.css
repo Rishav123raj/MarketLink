@@ -1,0 +1,63 @@
+/* Background Styles */
+body {
+    background: linear-gradient(to right, #f8f9fa, #dee2e6);
+    background-position: center;
+    /* Center the background gradient */
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #6ab0f3, #3282b8);
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Main Content Styles */
+.container {
+    margin-top: 30px;
+}
+
+/* Cart Card Styles */
+.card.wish-list {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Product Image Styles */
+.col-md-5 img {
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Remove Item Link Styles */
+.card-link-secondary {
+    color: #dc3545;
+}
+
+.card-link-secondary:hover {
+    color: #c82333;
+}
+
+/* Total Amount Card Styles */
+.card.mb-4 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Go to Checkout Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    /* Blue button */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    border-color: #0056b3;
+}

@@ -1,0 +1,52 @@
+/* Background Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #6ab0f3, #3282b8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Billing Details Card Styles */
+.card.wish-list {
+    border: none;
+}
+
+/* Form Label Styles */
+label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Form Input Styles */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+/* Country Label Styles */
+.select-outline label {
+    color: #343a40;
+}
+
+/* Submit Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Additional Information Textarea Styles */
+.md-textarea {
+    resize: none;
+}
